@@ -1,0 +1,15 @@
+### Test Echo-Service
+GET localhost:10001/echo
+Content-Type: text/plain
+
+Hello World!
+
+
+### Test Weather-Service - get all weather
+GET localhost:10001/weather
+
+
+### Test Weather-Service - get weather for city-id==1 (vienna)
+GET localhost:10001/weather/1
+
+
